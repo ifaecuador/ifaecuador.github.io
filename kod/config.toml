@@ -1,0 +1,4 @@
+baseURL = "https://www.ifa.org.ec/"
+languageCode = "es-ec"
+title = "IFA - Corporación para el Desarrollo de la Producción y el Medio Ambiente Laboral"
+publishDir = "../"
