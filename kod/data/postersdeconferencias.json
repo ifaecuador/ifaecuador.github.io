@@ -47,7 +47,69 @@
     "pdf":"docs/poster/Plaguicidas_FumigacionAerea.pdf",
     "text":"Efectos a al salud en trabajadoeres y poblaciones aledañas",
     "year":"XXXX"
+   },
+   { 
+    "title":"Low level and long term exposure to multiple pestecides and castogenhic effects in a flower plantation in Ecuador",
+    "img":"img/poster/Plaguicidas_PesticidesClastogenicEffects.jpg",
+    "pdf":"docs/poster/Plaguicidas_PesticidesClastogenicEffects.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Aerial spraying of pestesides in banana plantation in Ecuador",
+    "img":"img/poster/Plaguicidas_FumigacionAerea_ENG.jpg",
+    "pdf":"docs/poster/Plaguicidas_FumigacionAerea_ENG.pdf",
+    "text":"Health effects among workers and surrounding population",
+    "year":"XXXX"
+   },
+   { 
+    "title":"El uso trazador florescente en producción de flores, bananos y papas en Ecuador",
+    "img":"img/poster/Plaguicidas_TrazadorFluorescenteEcuador.jpg",
+    "pdf":"docs/poster/Plaguicidas_TrazadorFluorescenteEcuador.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Impactos dermatológicos de la exposición a plaguicidas en trabajadores bananeros, poblaciones aledañas y referentes en Quevedo, Ecuador",
+    "img":"img/poster/Plaguicidas_ImpactoDermatologico.jpg",
+    "pdf":"docs/poster/Plaguicidas_ImpactoDermatologico.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Dermatological impacts of exposure to pesticides in banana workers surrounding population and none exposed population n Quevedo, Ecuador",
+    "img":"img/poster/Plaguicidas_ImpactoDermatologico_ENG.jpg",
+    "pdf":"docs/poster/Plaguicidas_ImpactoDermatologico_ENG.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Occupational exposure to organophosphorus in insecticides in floriculture in Ecuador.",
+    "img":"img/poster/Plaguicidas_Organophosphates.jpg",
+    "pdf":"docs/poster/Plaguicidas_Organophosphates.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Pestide exposure as independent predictor of neurological functioning and blood pressure in ecuadorian school children",
+    "img":"img/poster/Plaguicidas_PesticidesChildren.jpg",
+    "pdf":"docs/poster/Plaguicidas_PesticidesChildren.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Environmental exposure to silica dust and health effects",
+    "img":"img/poster/SilicaDustAndHealth.jpg",
+    "pdf":"docs/poster/SilicaDustAndHealth.pdf",
+    "text":"",
+    "year":"XXXX"
+   },
+   { 
+    "title":"Sugar-cane harvesting",
+    "img":"img/poster/SugarCaneWorkers.jpg",
+    "pdf":"docs/poster/SugarCaneWorkers.pdf",
+    "text":"Can we protect both the workers' health and their jobs?",
+    "year":"XXXX"
    }
 ]
-
 
