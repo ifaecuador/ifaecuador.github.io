@@ -117,6 +117,27 @@
     "pdf":"docs/poster/SugarCaneWorkers.pdf",
     "text":"Can we protect both the workers' health and their jobs?",
     "year":""
+   },
+   { 
+    "title":"About PHIME",
+    "img":"img/poster/PHIME_triptico.jpg",
+    "pdf":"docs/poster/PHIME_triptico.pdf",
+    "text":"PHIME-Public Health Inpact of long-term, low lever Mixed element Exposure in suseptible population strata.",
+    "year":""
+   },
+   { 
+    "title":"PHIME Project in Ecuador",
+    "img":"img/poster/PHIMEpreliminaryResults.jpg",
+    "pdf":"docs/poster/PHIMEpreliminaryResults.pdf",
+    "text":"Preliminary results.",
+    "year":""
+   },
+   { 
+    "title":"Gene-environment interaction of elemental mercury",
+    "img":"img/poster/PHIMEprojectMining.jpg",
+    "pdf":"docs/poster/PHIMEprojectMining.pdf",
+    "text":"Integrated Project sponsored by the European Commission.",
+    "year":""
    }
 ]
 
