@@ -2,91 +2,20 @@
   <div class="my-auto">
     <h2 class="mb-5">Manuales</h2>
     
-    <div class="row">
+    <div class="row"> 
+     {{ range $.Site.Data.manuales }}
       <div class="col-md-6 col-sm-12">
         <div class="media book">
-          <img class="mr-3 book" src="img/libros/22.jpg" alt="MANUAL DE SALUD OCUPACIONAL Y AMBIENTAL DE LOS TRABAJADORES Y TRABAJADORAS DE LAS PLANTACIONES BANANERAS Y POBLACIONES VECINAS DEL ECUADOR">
+          <img class="mr-3 book" src="{{ .img }}" alt="{{ .title }}">
           <div class="media-body">
-            <h5 class="mt-0">MANUAL DE SALUD OCUPACIONAL Y AMBIENTAL DE LOS TRABAJADORES Y TRABAJADORAS DE LAS PLANTACIONES BANANERAS Y POBLACIONES VECINAS DEL ECUADOR</h5>
-             
-            <a href="docs/trabajoenbananeras.pdf" target="_blank">Descargar</a>
+            <h5 class="mt-0">{{ .title }}</h5>
+            {{ if ne .pdf "" }}
+            <a href="{{ .pdf }}" target="_blank">Descargar</a>
+            {{ end }}
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/12.jpg" alt="Manual de seguridad, salud y ambiente en la produccin bananera">
-          <div class="media-body">
-            <h5 class="mt-0">Manual de seguridad, salud y ambiente en la produccin bananera</h5>
-             
-            <a href="docs/seguridadbanano2.pdf" target="_blank">Descargar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/32.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Mapa Territorial de riesgos ambientales, una tecnica participativa</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/28.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Mapa Territorial de Riesgos Ambientales, Propuesta instrumental</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/10.jpg" alt="Mejoramiento ambiental y sanitario en la floricultura">
-          <div class="media-body">
-            <h5 class="mt-0">Mejoramiento ambiental y sanitario en la floricultura</h5>
-             
-            <a href="docs/mejoramientoambiental.pdf" target="_blank">Descargar</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/29.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">El Mejoramiento de la Produccion y el medio ambiente de trabajo en la pequeña industria</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/30.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Riesgos del trabajo agricola</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/31.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Manual de la industria de la galvanoplastia para el medio ambiente interno</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="media book">
-          <img class="mr-3 book" src="img/libros/33.jpg" alt="">
-          <div class="media-body">
-            <h5 class="mt-0">Seguridad y salud en la floricultura</h5>
-
-          </div>
-        </div>
-      </div>
+     {{ end }}
     </div>
   </div>
 </section>
