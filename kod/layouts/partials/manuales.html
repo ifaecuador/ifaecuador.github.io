@@ -11,6 +11,8 @@
             <h5 class="mt-0">{{ .title }}</h5>
             {{ if ne .pdf "" }}
             <a href="{{ .pdf }}" target="_blank">Descargar</a>
+            {{ else }}
+               <a href="mailto:ifa@ifa.org.ec?subject=Ordernar: {{ .title }}">Quieres ordenar este libro?</a>  Envía un e-mail a: ifa@ifa.org.ec
             {{ end }}
           </div>
         </div>
