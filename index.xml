@@ -12,11 +12,11 @@
     
     <item>
       <title></title>
-      <link>https://www.ifa.org.ec/</link>
+      <link>https://www.ifa.org.ec/img/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.ifa.org.ec/</guid>
-      <description></description>
+      <guid>https://www.ifa.org.ec/img/</guid>
+      <description>headless = true</description>
     </item>
     
   </channel>
