@@ -2290,20 +2290,17 @@
   }
   </script>
   
-  <script type="text/javascript">
-    var _paq = window._paq = window._paq || [];
-     
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="https://ifaorgec.matomo.cloud/";
-      _paq.push(['setTrackerUrl', u+'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/ifaorgec.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-    })();
+  <script>
+  fetch('https://api.thure.org/visit.php?url='+encodeURIComponent("https://www.ifa.org.ec/"))
+      .then(function(response) {});
+
+  document.addEventListener('mousedown', function (event) {
+    if(event.target.nodeName === "A"){
+      fetch('https://api.thure.org/visit.php?url='+encodeURIComponent(event.target.href))
+      .then(function(response) {});
+    }
+  });
   </script>
-  
   </body>
 
 </html>
