@@ -5,10 +5,6 @@
     <link>https://www.ifa.org.ec/categories/</link>
     <description>Recent content in Categories on IFA - Corporación para el Desarrollo de la Producción y el Medio Ambiente Laboral</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es-ec</language>
-    
-	<atom:link href="https://www.ifa.org.ec/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>es-ec</language><atom:link href="https://www.ifa.org.ec/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
